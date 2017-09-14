@@ -2,14 +2,13 @@
     background-color: $mainBlue;
     text-decoration: none;
     color: #FFF;
-    padding: .75rem 1.2rem;
+    padding: .75rem 1.3rem;
     display: inline-block; /* allows parent and surrounding elements to be aware of padding */
 
     &--orange {
         background-color: $mainOrange;
     }
     &--large {
-        font-size: 1.25rem;
         padding: 1.1rem 1.9rem;
     }
 }
