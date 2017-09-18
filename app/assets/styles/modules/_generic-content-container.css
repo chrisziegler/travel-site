@@ -1,0 +1,14 @@
+    /* rule that selects any paragraph elements that are nested within this div class
+     line height doesnt require unit of measurement */
+.generic-content-container {
+    p {
+        line-height: 1.65;
+        margin: 1.8rem 0;
+    }
+    p a {
+        font-weight: 700;
+    }
+    @mixin atSmall {
+        font-size: 1.125rem;
+    }
+}
